@@ -55,8 +55,8 @@ function openLink(value) {
     if (value == "partner") {
         window.location.href = "partner.html";
     }
-    if (value == "rules" || value == "whitelist") {
-        alert('Not Implemented yet!')
+    if (value == "rules") {
+        window.location.href = "rules.html";
     }
 }
 
